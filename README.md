@@ -31,43 +31,6 @@ This project implements a robust **multi-layered ETL pipeline** using the **Bron
 - Intermediate, analysis-ready layer
 - Stored in structured format for ease of querying
 
-## 🏗️ Data Architecture Overview
-
-The following diagram illustrates the **CRM & ERP Data Integration** process. It highlights how different datasets interact across the **Silver Layer** in our pipeline.
-
-### 📌 Key Components:
-
-🔹 **CRM (Customer Relationship Management)**  
-- `crm_sales_info` → Stores sales transaction records (linked via `prod_key` and `cust_id`).  
-- `crm_prod_info` → Maintains current and historical product information (`prd_key`).  
-- `crm_cust_info` → Stores customer details (`cst_id`, `cust_key`).  
-
-🔸 **ERP (Enterprise Resource Planning)**  
-- `erp_PX_CAT_G1V2` → Contains product categories (`id`).  
-- `erp_LOC_A101` → Tracks customer locations (`cid`).  
-- `erp_CUST_AZ12` → Stores extra customer information (`cid`).  
-
-### 📌 Data Flow Diagram:
-This diagram visually represents how **CRM & ERP data sources** are linked in the pipeline:
-
-## 🏗️ Data Architecture Overview
-
-The following diagram illustrates the **CRM & ERP Data Integration** process. It highlights how different datasets interact across the **Silver Layer** in our pipeline.
-
-### 📌 Key Components:
-
-🔹 **CRM (Customer Relationship Management)**  
-- `crm_sales_info` → Stores sales transaction records (linked via `prod_key` and `cust_id`).  
-- `crm_prod_info` → Maintains current and historical product information (`prd_key`).  
-- `crm_cust_info` → Stores customer details (`cst_id`, `cust_key`).  
-
-🔸 **ERP (Enterprise Resource Planning)**  
-- `erp_PX_CAT_G1V2` → Contains product categories (`id`).  
-- `erp_LOC_A101` → Tracks customer locations (`cid`).  
-- `erp_CUST_AZ12` → Stores extra customer information (`cid`).  
-
-### 📌 Data Flow Diagram:
-This diagram visually represents how **CRM & ERP data sources** are linked in the pipeline:
 
 ## 🏗️ Data Architecture Overview
 
