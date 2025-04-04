@@ -2,8 +2,6 @@
 ============================================================
   PROCEDURE NAME : silver.load_silver
   LAYER          : SILVER (CLEANED AND TRANSFORMED DATA)
-  AUTHOR         : [Your Name]
-  CREATED ON     : [Date]
   PURPOSE        : Load cleaned and standardized data 
                    from BRONZE to SILVER layer
 ============================================================
@@ -62,16 +60,6 @@
      - PRINTS total execution time in SECONDS for monitoring
 ============================================================
 */
-
-
-
-
-
-
-
-
-
-
 
 
 CREATE OR ALTER PROCEDURE silver.load_silver AS
