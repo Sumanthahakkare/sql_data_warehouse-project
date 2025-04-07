@@ -66,10 +66,10 @@ This diagram visually represents how **CRM & ERP data sources** are linked in th
 - Aligned with **business KPIs and reporting needs**
 - Supports dashboards, advanced analytics, and ML models
 
-- 
+  ---
 
--** 🗂️ Data Model Overview
-
+**🗂️ Data Model Overview
+**
 This project follows a star schema design in the Gold Layer, consisting of one central fact table and two supporting dimension tables.**
 
 **⭐ gold_fact_sales (Fact Table)**
