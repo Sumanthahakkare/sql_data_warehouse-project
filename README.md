@@ -68,8 +68,9 @@ This diagram visually represents how **CRM & ERP data sources** are linked in th
 
 - 
 
-- 🗂️ Data Model Overview
-This project follows a star schema design in the Gold Layer, consisting of one central fact table and two supporting dimension tables.
+-** 🗂️ Data Model Overview
+
+This project follows a star schema design in the Gold Layer, consisting of one central fact table and two supporting dimension tables.**
 
 **⭐ gold_fact_sales (Fact Table)**
 Stores transactional sales data.
@@ -87,14 +88,14 @@ customer_id acts as the primary key in this table.
 
 Acts as a foreign key in the fact table (gold_fact_sales).
 
-
+---
 📙 **gold_dimension_product (Dimension Table)**
 Contains product attributes such as category, cost, and product line.
 
 product_key serves as the primary key.
 
 Acts as a foreign key in the fact table (gold_fact_sales).
-
+---
 
 ![TABLE](https://github.com/user-attachments/assets/dc2d3f6c-91ae-4aaf-a272-3ef4d76a704d)
 
